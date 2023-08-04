@@ -1,81 +1,106 @@
-# Turborepo starter
+<p align="center">
+  <h3 align="center">sayande.com</h3>
 
-This is an official starter Turborepo.
+  <p align="center">
+    This is my portfolio website.
+    <br />
+    ·
+    <a href="https://sayande-com-web.vercel.app/">Website</a>
+    ·
+  </p>
+</p>
 
-## Using this example
+This is a solo project by [Sayan De](https://github.com/sayande2002).
 
-Run the following command:
+## Contributing
+
+Guidelines for contributing can be found in [CONTRIBUTING.md](https://github.com/sayande2002/refhired.com/blob/main/CONTRIBUTING.md).
+
+## Main domains
+
+| Domain                  | Tech           | Version |
+| ----------------------- | -------------- | ------- |
+| Repository Tool         | Turborepo      | 1.9     |
+| Primary Language        | TypeScript     | 4.5     |
+| Website Front-End       | Next.js        | 13.4    |
+| Mobile App              | React Native   | 0.72    |
+| Desktop App Tool        | Tauri          | 1.4     |
+| Back-End Server         | Golang         | -       |
+| Api                     | GraphQL        | -       |
+| Styling                 | Tailwind CSS   | 3.3     |
+| Database ORM            | Prisma         | 4.15    |
+| Primary Database        | PostgreSQL     | 15.3    |
+| Caching Database        | Redis          | -       |
+| Unit Testing            | Vitest         | 0.33.0  |
+| End to end Testing      | Playwright     | 1.36.2  |
+| Containerization        | Docker         | -       |
+| Container Orchestration | Kubernetes     | 1.24    |
+| Continuous Integration  | GitHub Actions | -       |
+| Continuous Delivery     | Argo CD        | 2.8     |
+| Infrastructure as code  | Terraform      | -       |
+| Deployment              | AWS            | -       |
+| Proxy                   | Nginix         | -       |
+| Version Control         | GitHub         | -       |
+| Code Editor             | VS Code        | -       |
+
+## Getting Started
+
+To get a local copy up and running, please follow these simple steps.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+### Prerequisites
+
+Here is what you need to be able to run Cal.com.
+
+- Node.js (Version: >=18.x)
+- Git
+- Docker and Docker Compose
+- Yarn _(recommended)_
+
+## Development
+
+### Setup
+
+1. Clone the repo into a public GitHub repository (or fork <https://github.com/sayande2002/refhired.com/fork>). If you plan to distribute the code, keep the source code public to comply with [AGPLv3](https://github.com/sayande2002/refhired.com/blob/main/LICENSE).
+
+   ```sh
+   git clone https://github.com/sayande2002/refhired.com
+   ```
+
+2. Go to the project folder
+
+   ```sh
+   cd refhired.com
+   ```
+
+3. Install packages with yarn
+
+   ```sh
+   yarn
+   ```
+
+4. Set up your `.env` file
+
+   - Duplicate `.env.example` to `.env`
+   - Use `openssl rand -base64 32` to generate a key and add it under `NEXTAUTH_SECRET` in the `.env` file.
+
+5. Quick start with `yarn dx`
+   This will run the docker compose file in the root directory from the docker image build from @refhired.com/web on `http://localhost:3000/` and docker image build from @refhired.com/prisma (database) on `http://localhost:5432/` and adminar on `http://localhost:8080/`
+
+> - **Requires Docker and Docker Compose to be installed**
 
 ```sh
-npx create-turbo@latest
+yarn dx
 ```
 
-## What's inside?
+6. Once your server has started, go to this url `http://localhost:3000/` and you will see the website running on a Development Server.
 
-This Turborepo includes the following packages/apps:
+### License
 
-### Apps and Packages
+-[MIT license](LICENSE)
 
-- `docs`: a [Next.js](https://nextjs.org/) app
-- `web`: another [Next.js](https://nextjs.org/) app
-- `ui`: a stub React component library shared by both `web` and `docs` applications
-- `eslint-config-custom`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
-- `tsconfig`: `tsconfig.json`s used throughout the monorepo
+### Contact 📬
 
-Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
+For any query, email <sayandeten@gmail.com>.
 
-### Utilities
-
-This Turborepo has some additional tools already setup for you:
-
-- [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [ESLint](https://eslint.org/) for code linting
-- [Prettier](https://prettier.io) for code formatting
-
-### Build
-
-To build all apps and packages, run the following command:
-
-```
-cd my-turborepo
-pnpm build
-```
-
-### Develop
-
-To develop all apps and packages, run the following command:
-
-```
-cd my-turborepo
-pnpm dev
-```
-
-### Remote Caching
-
-Turborepo can use a technique known as [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching) to share cache artifacts across machines, enabling you to share build caches with your team and CI/CD pipelines.
-
-By default, Turborepo will cache locally. To enable Remote Caching you will need an account with Vercel. If you don't have an account you can [create one](https://vercel.com/signup), then enter the following commands:
-
-```
-cd my-turborepo
-npx turbo login
-```
-
-This will authenticate the Turborepo CLI with your [Vercel account](https://vercel.com/docs/concepts/personal-accounts/overview).
-
-Next, you can link your Turborepo to your Remote Cache by running the following command from the root of your Turborepo:
-
-```
-npx turbo link
-```
-
-## Useful Links
-
-Learn more about the power of Turborepo:
-
-- [Tasks](https://turbo.build/repo/docs/core-concepts/monorepos/running-tasks)
-- [Caching](https://turbo.build/repo/docs/core-concepts/caching)
-- [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching)
-- [Filtering](https://turbo.build/repo/docs/core-concepts/monorepos/filtering)
-- [Configuration Options](https://turbo.build/repo/docs/reference/configuration)
-- [CLI Usage](https://turbo.build/repo/docs/reference/command-line-reference)
+Thanks!
