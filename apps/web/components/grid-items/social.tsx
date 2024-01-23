@@ -34,7 +34,7 @@ const Social = ({ item }: { item: GridItemInterface }) => {
             <Button
               text={item.buttonTitle ?? ""}
               secondaryText={item.buttonSecondaryText}
-              color={item.color}
+              color={item.color ?? "#000"}
             />
           </div>
         )}
