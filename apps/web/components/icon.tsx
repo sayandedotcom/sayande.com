@@ -82,57 +82,66 @@ const Icons: {
   ),
   instagram: (
     <svg
+      width="24"
+      height="24"
       xmlns="http://www.w3.org/2000/svg"
-      x="0px"
-      y="0px"
-      width="60"
-      height="60"
-      viewBox="0 0 48 48"
+      fill-rule="evenodd"
+      clip-rule="evenodd"
     >
-      <radialGradient
-        id="yOrnnhliCrdS2gy~4tD8ma_Xy10Jcu1L2Su_gr1"
-        cx="19.38"
-        cy="42.035"
-        r="44.899"
-        gradientUnits="userSpaceOnUse"
-      >
-        <stop offset="0" stop-color="#fd5"></stop>
-        <stop offset=".328" stop-color="#ff543f"></stop>
-        <stop offset=".348" stop-color="#fc5245"></stop>
-        <stop offset=".504" stop-color="#e64771"></stop>
-        <stop offset=".643" stop-color="#d53e91"></stop>
-        <stop offset=".761" stop-color="#cc39a4"></stop>
-        <stop offset=".841" stop-color="#c837ab"></stop>
-      </radialGradient>
-      <path
-        fill="url(#yOrnnhliCrdS2gy~4tD8ma_Xy10Jcu1L2Su_gr1)"
-        d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z"
-      ></path>
-      <radialGradient
-        id="yOrnnhliCrdS2gy~4tD8mb_Xy10Jcu1L2Su_gr2"
-        cx="11.786"
-        cy="5.54"
-        r="29.813"
-        gradientTransform="matrix(1 0 0 .6663 0 1.849)"
-        gradientUnits="userSpaceOnUse"
-      >
-        <stop offset="0" stop-color="#4168c9"></stop>
-        <stop offset=".999" stop-color="#4168c9" stop-opacity="0"></stop>
-      </radialGradient>
-      <path
-        fill="url(#yOrnnhliCrdS2gy~4tD8mb_Xy10Jcu1L2Su_gr2)"
-        d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z"
-      ></path>
-      <path
-        fill="#fff"
-        d="M24,31c-3.859,0-7-3.14-7-7s3.141-7,7-7s7,3.14,7,7S27.859,31,24,31z M24,19c-2.757,0-5,2.243-5,5	s2.243,5,5,5s5-2.243,5-5S26.757,19,24,19z"
-      ></path>
-      <circle cx="31.5" cy="16.5" r="1.5" fill="#fff"></circle>
-      <path
-        fill="#fff"
-        d="M30,37H18c-3.859,0-7-3.14-7-7V18c0-3.86,3.141-7,7-7h12c3.859,0,7,3.14,7,7v12	C37,33.86,33.859,37,30,37z M18,13c-2.757,0-5,2.243-5,5v12c0,2.757,2.243,5,5,5h12c2.757,0,5-2.243,5-5V18c0-2.757-2.243-5-5-5H18z"
-      ></path>
+      <path d="M3 24h19v-23h-1v22h-18v1zm17-24h-18v22h18v-22zm-1 1h-16v20h16v-20zm-2 16h-12v1h12v-1zm0-3h-12v1h12v-1zm0-3h-12v1h12v-1zm-7.348-3.863l.948.3c-.145.529-.387.922-.725 1.178-.338.257-.767.385-1.287.385-.643 0-1.171-.22-1.585-.659-.414-.439-.621-1.04-.621-1.802 0-.806.208-1.432.624-1.878.416-.446.963-.669 1.642-.669.592 0 1.073.175 1.443.525.221.207.386.505.496.892l-.968.231c-.057-.251-.177-.449-.358-.594-.182-.146-.403-.218-.663-.218-.359 0-.65.129-.874.386-.223.258-.335.675-.335 1.252 0 .613.11 1.049.331 1.308.22.26.506.39.858.39.26 0 .484-.082.671-.248.187-.165.322-.425.403-.779zm3.023 1.78l-1.731-4.842h1.06l1.226 3.584 1.186-3.584h1.037l-1.734 4.842h-1.044z" />
     </svg>
+    // <svg
+    //   xmlns="http://www.w3.org/2000/svg"
+    //   x="0px"
+    //   y="0px"
+    //   width="60"
+    //   height="60"
+    //   viewBox="0 0 48 48"
+    // >
+    //   <radialGradient
+    //     id="yOrnnhliCrdS2gy~4tD8ma_Xy10Jcu1L2Su_gr1"
+    //     cx="19.38"
+    //     cy="42.035"
+    //     r="44.899"
+    //     gradientUnits="userSpaceOnUse"
+    //   >
+    //     <stop offset="0" stopColor="#fd5"></stop>
+    //     <stop offset=".328" stopColor="#ff543f"></stop>
+    //     <stop offset=".348" stopColor="#fc5245"></stop>
+    //     <stop offset=".504" stopColor="#e64771"></stop>
+    //     <stop offset=".643" stopColor="#d53e91"></stop>
+    //     <stop offset=".761" stopColor="#cc39a4"></stop>
+    //     <stop offset=".841" stopColor="#c837ab"></stop>
+    //   </radialGradient>
+    //   <path
+    //     fill="url(#yOrnnhliCrdS2gy~4tD8ma_Xy10Jcu1L2Su_gr1)"
+    //     d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z"
+    //   ></path>
+    //   <radialGradient
+    //     id="yOrnnhliCrdS2gy~4tD8mb_Xy10Jcu1L2Su_gr2"
+    //     cx="11.786"
+    //     cy="5.54"
+    //     r="29.813"
+    //     gradientTransform="matrix(1 0 0 .6663 0 1.849)"
+    //     gradientUnits="userSpaceOnUse"
+    //   >
+    //     <stop offset="0" stopColor="#4168c9"></stop>
+    //     <stop offset=".999" stopColor="#4168c9" stopOpacity="0"></stop>
+    //   </radialGradient>
+    //   <path
+    //     fill="url(#yOrnnhliCrdS2gy~4tD8mb_Xy10Jcu1L2Su_gr2)"
+    //     d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z"
+    //   ></path>
+    //   <path
+    //     fill="#fff"
+    //     d="M24,31c-3.859,0-7-3.14-7-7s3.141-7,7-7s7,3.14,7,7S27.859,31,24,31z M24,19c-2.757,0-5,2.243-5,5	s2.243,5,5,5s5-2.243,5-5S26.757,19,24,19z"
+    //   ></path>
+    //   <circle cx="31.5" cy="16.5" r="1.5" fill="#fff"></circle>
+    //   <path
+    //     fill="#fff"
+    //     d="M30,37H18c-3.859,0-7-3.14-7-7V18c0-3.86,3.141-7,7-7h12c3.859,0,7,3.14,7,7v12	C37,33.86,33.859,37,30,37z M18,13c-2.757,0-5,2.243-5,5v12c0,2.757,2.243,5,5,5h12c2.757,0,5-2.243,5-5V18c0-2.757-2.243-5-5-5H18z"
+    //   ></path>
+    // </svg>
   ),
   linkedin: (
     <svg

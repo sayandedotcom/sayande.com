@@ -52,13 +52,13 @@ const LeftPanel = () => {
             <Mail size="14" />
             Contact Me
           </a>
-          <a
+          {/* <a
             href={`mailto:${siteConfig.email}`}
             className="flex items-center w-full gap-2 px-4 py-2 text-sm font-medium border rounded-md border-neutral-100 dark:border-neutral-800"
           >
             <Download size="14" />
-            Resume
-          </a>
+            Mail
+          </a> */}
         </div>
         {/* Footer */}
         <div className="hidden mt-6 xl:flex">
