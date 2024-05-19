@@ -30,13 +30,15 @@ const Social = ({ item }: { item: GridItemInterface }) => {
         )}
 
         {item.layout === "1x2" && (
-          <div className="mt-2">
-            <Button
-              text={item.buttonTitle ?? ""}
-              secondaryText={item.buttonSecondaryText}
-              color={item.color ?? "#000"}
-            />
-          </div>
+          <Link href={item.liveLink ?? ""}>
+            <div className="mt-2">
+              <Button
+                text={item.buttonTitle ?? ""}
+                secondaryText={item.buttonSecondaryText}
+                color={item.color ?? "#000"}
+              />
+            </div>
+          </Link>
         )}
       </div>
     </Link>

@@ -23,7 +23,7 @@ const faqs: TFaq[] = [
   },
   {
     id: 2,
-    question: "Why don't you have any other interships or experience ?",
+    question: "Why don't you have any other strong interships or experience ?",
     answer:
       "After my internship, I aimed to hone my skills in full-stack web development for enterprise-level projects and efficient deployment, akin to startup standards. So, I launched refhired.com to expand beyond the limited scope of internships and explore diverse expertise. This hands-on endeavor provided invaluable learning opportunities, surpassing what internships typically offer. It's been a self-directed journey, allowing me to tackle real-world challenges and gain practical insights into building robust web applications.",
   },

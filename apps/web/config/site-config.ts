@@ -16,6 +16,7 @@ export interface GridItemInterface {
   buttonTitle?: string;
   buttonLink?: string;
   buttonSecondaryText?: string;
+  liveLink?: string;
   /* Mentor */
   promotion?: string;
   price?: string;
@@ -73,12 +74,116 @@ const GridItems: GridItemInterface[] = [
     buttonSecondaryText: "",
     color: null,
   },
+  {
+    layout: "2x4",
+    type: "equipment",
+    title: "My Skills 🚀",
+    image: "/new-sayan.jpeg",
+    equipments: [
+      {
+        title: "JavaScript / TypeScript",
+        link: "",
+      },
+      {
+        title: "Solidity",
+        link: "",
+      },
+      {
+        title: "React.js / Next.js",
+        link: "",
+      },
+      {
+        title: "Node.js",
+        link: "",
+      },
+      {
+        title: "Prisma",
+        link: "",
+      },
+      {
+        title: "PostgreSQL",
+        link: "",
+      },
+      {
+        title: "GraphQL",
+        link: "",
+      },
+      {
+        title: "Docker",
+        link: "",
+      },
+      {
+        title: "Github Actions",
+        link: "",
+      },
+      {
+        title: "Terraform",
+        link: "",
+      },
+      {
+        title: "AWS",
+        link: "",
+      },
+      {
+        title: "OOP",
+        link: "",
+      },
+      {
+        title: "DSA",
+        link: "",
+      },
+      {
+        title: "System Design",
+        link: "",
+      },
+      {
+        title: "Networking",
+        link: "",
+      },
+      {
+        title: "Blockchain",
+        link: "",
+      },
+    ],
+  },
+  {
+    layout: "2x2",
+    type: "social",
+    title: "Refhired.com",
+    username: "https://refhired.com/",
+    description:
+      "Simplifying receiving and giving job referrals for absolutely everyone ! 💼",
+    icon: "github",
+    color: "#070707",
+    buttonTitle: "Live",
+    buttonSecondaryText: "🔗",
+    buttonLink: "https://github.com/sayandedotcom/refhired.com",
+    liveLink: "https://refhired.com/",
+  },
+  {
+    layout: "2x1",
+    type: "project",
+    title: "E-Commerce MERN GraphQL",
+    icon: "github",
+    color: "#070707",
+    buttonLink: "https://github.com/batuhanbilginn/makr-ai",
+    stars: 73,
+  },
+  {
+    layout: "2x1",
+    type: "project",
+    title: "YouTUbe Clone with YouTube API V3",
+    icon: "github",
+    stars: 19,
+    color: "#070707",
+    buttonLink: "https://github.com/batuhanbilginn/ai-blog-post-generator",
+  },
 ];
 
 export const siteConfig = {
   creator: "Sayan De",
   title: "Full-Stack | DevOps | Cloud (AWS)",
-  bio: "Hi 👋! I’m Sayan, an ambitious Full-Stack, DevOps, Cloud Developer from India. Currently pursuing my Masters in Computer Application, I bring a solid foundation in Software Engineering with hands-on experience. My unwavering curiosity and drive push me to explore fresh avenues to redefine technological frontiers.",
+  bio: "Hi 👋! I’m Sayan, an ambitious Full-Stack 🌐, DevOps ☸️ & Cloud ☁️ Developer from India. Currently pursuing my Masters in Computer Application, I bring a solid foundation in Software Engineering with hands-on experience. My unwavering curiosity and drive push me to explore fresh avenues to redefine technological frontiers. Currently exploring Blockchain 📦 ⛓️. ❤️ exploring techs",
   location: "Kolkata, India   🇮🇳",
   locationLink: "",
   // "https://www.google.com/maps/place/Kolkata,+West+Bengal/@22.5354273,88.3473527,12z/data=!3m1!4b1!4m6!3m5!1s0x39f882db4908f667:0x43e330e68f6c2cbc!8m2!3d22.572646!4d88.363895!16zL20vMGN2dzk?entry=ttu",
