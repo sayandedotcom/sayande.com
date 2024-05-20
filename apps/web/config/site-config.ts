@@ -157,7 +157,7 @@ const GridItems: GridItemInterface[] = [
     color: "#070707",
     buttonTitle: "Live",
     buttonSecondaryText: "🔗",
-    buttonLink: "https://github.com/sayandedotcom/refhired.com",
+    buttonLink: "https://refhired.com/",
     liveLink: "https://refhired.com/",
   },
   {
