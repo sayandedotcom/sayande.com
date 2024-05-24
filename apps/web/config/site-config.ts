@@ -166,7 +166,7 @@ const GridItems: GridItemInterface[] = [
     title: "E-Commerce MERN GraphQL",
     icon: "github",
     color: "#070707",
-    buttonLink: "https://github.com/batuhanbilginn/makr-ai",
+    buttonLink: "https://github.com/sayandedotcom/MERN-E-Commerce-GraphQL",
     stars: 73,
   },
   {
@@ -176,7 +176,7 @@ const GridItems: GridItemInterface[] = [
     icon: "github",
     stars: 19,
     color: "#070707",
-    buttonLink: "https://github.com/batuhanbilginn/ai-blog-post-generator",
+    buttonLink: "https://github.com/sayandedotcom/youtube_clone_reactjs",
   },
 ];
 
