@@ -97,6 +97,10 @@ const GridItems: GridItemInterface[] = [
         link: "",
       },
       {
+        title: "Django",
+        link: "",
+      },
+      {
         title: "Prisma",
         link: "",
       },
@@ -114,10 +118,6 @@ const GridItems: GridItemInterface[] = [
       },
       {
         title: "Github Actions",
-        link: "",
-      },
-      {
-        title: "Terraform",
         link: "",
       },
       {
