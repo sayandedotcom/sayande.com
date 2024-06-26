@@ -9,6 +9,7 @@ import Project from "./grid-items/project";
 import Social from "./grid-items/social";
 import { FAQAccordion } from "./faq";
 import Image from "next/image";
+import { BentoDemo } from "./bento";
 
 const RightPanel = () => {
   const [scope, animate] = useAnimate();
@@ -60,7 +61,11 @@ const RightPanel = () => {
           );
         })}
       </div>
-
+      <img
+        className="w-full py-4"
+        src="https://skillicons.dev/icons?i=js,ts,python,java,go,react,next,tailwind,nodejs,django,graphql,prisma,postgres,mongodb,redis,kafka,git,github,githubactions,docker,kubernetes,jenkins,nginx,terraform,prometheus,grafana,ansible,cloudflare,aws,gcp"
+        alt="Tech Stack"
+      ></img>
       <FAQAccordion className="" />
     </div>
   );
