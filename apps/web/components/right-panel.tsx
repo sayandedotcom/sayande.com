@@ -8,8 +8,6 @@ import Mentor from "./grid-items/mentor";
 import Project from "./grid-items/project";
 import Social from "./grid-items/social";
 import { FAQAccordion } from "./faq";
-import Image from "next/image";
-import { BentoDemo } from "./bento";
 
 const RightPanel = () => {
   const [scope, animate] = useAnimate();
