@@ -1,0 +1,275 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply h-full antialiased dark:bg-neutral-950 dark:text-neutral-50;
+  }
+}
+
+@layer base {
+  :root {
+    --background: 224 71% 4%;
+    --foreground: 213 31% 91%;
+
+    --muted: 223 47% 11%;
+    --muted-foreground: 215.4 16.3% 56.9%;
+
+    --popover: 224 71% 4%;
+    --popover-foreground: 215 20.2% 65.1%;
+
+    --card: 224 71% 4%;
+    --card-foreground: 213 31% 91%;
+
+    --border: 216 34% 17%;
+    --input: 216 34% 17%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 1.2%;
+
+    --secondary: 222.2 47.4% 11.2%;
+    --secondary-foreground: 210 40% 98%;
+
+    --accent: 216 34% 17%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 216 34% 17%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 224 71% 4%;
+    --foreground: 213 31% 91%;
+
+    --muted: 223 47% 11%;
+    --muted-foreground: 215.4 16.3% 56.9%;
+
+    --popover: 224 71% 4%;
+    --popover-foreground: 215 20.2% 65.1%;
+
+    --card: 224 71% 4%;
+    --card-foreground: 213 31% 91%;
+
+    --border: 216 34% 17%;
+    --input: 216 34% 17%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 1.2%;
+
+    --secondary: 222.2 47.4% 11.2%;
+    --secondary-foreground: 210 40% 98%;
+
+    --accent: 216 34% 17%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 216 34% 17%;
+
+    --radius: 0.5rem;
+  }
+}
+
+/* From Uiverse.io by htwarriors108 */
+.ai-button {
+  /* height: 40px;
+  width: 40px; */
+  background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);
+  border-radius: 25px;
+  animation: animate 1.5s linear infinite;
+  border: none;
+  cursor: pointer;
+}
+
+.ai-button,
+.display,
+#msg {
+  transition: 0.3s;
+}
+
+.ai-button:active .display {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.ai-button:active .display #msg {
+  -webkit-text-fill-color: #1b1b1b;
+}
+
+.ai-button:hover {
+  /* scale: 1.15; */
+  animation: animate 0.7s linear infinite;
+  /* transform: translateY(-15px); */
+}
+
+/* .ai-button .display,
+.ai-button span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
+
+.ai-button .display,
+.ai-button span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.ai-button .display {
+  z-index: 1;
+  background-color: #1b1b1b;
+  height: 42.5px;
+  width: 172.5px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.ai-button .display #msg {
+  line-height: 42.5px;
+  font-size: 25px;
+  font-weight: 800;
+  letter-spacing: 3px;
+  background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes animate {
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}
+
+.ai-button span {
+  height: 100%;
+  width: 100%;
+  background: inherit;
+  border-radius: 25px;
+}
+
+.ai-button span:first-child {
+  filter: blur(15px);
+}
+
+.ai-button span:last-child {
+  filter: blur(15px);
+  transition: 0.3s;
+}
+
+.button:hover span:last-child {
+  width: 110%;
+  height: 120%;
+}
+
+.ai2-button {
+  /* height: 40px;
+  width: 40px; */
+  background: linear-gradient(
+    135deg,
+    rgba(170, 202, 255, 0.2),
+    #ffffff,
+    rgba(170, 202, 255, 0.15)
+  );
+  border-radius: 25px;
+  animation: animate 1.5s linear infinite;
+  border: none;
+  cursor: pointer;
+}
+
+.ai2-button,
+.display,
+#msg {
+  transition: 0.3s;
+}
+
+.ai2-button:active .display {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.ai2-button:active .display #msg {
+  -webkit-text-fill-color: #1b1b1b;
+}
+
+.ai2-button:hover {
+  /* scale: 1.15; */
+  animation: animate 0.7s linear infinite;
+  /* transform: translateY(-15px); */
+}
+
+/* .ai2-button .display,
+.ai2-button span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
+
+.ai2-button .display,
+.ai2-button span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.ai2-button .display {
+  z-index: 1;
+  background-color: #1b1b1b;
+  height: 42.5px;
+  width: 172.5px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.ai2-button .display #msg {
+  line-height: 42.5px;
+  font-size: 25px;
+  font-weight: 800;
+  letter-spacing: 3px;
+  background: linear-gradient(
+    135deg,
+    rgba(170, 202, 255, 0.2),
+    #ffffff,
+    rgba(170, 202, 255, 0.15)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes animate {
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}
+
+.ai2-button span {
+  height: 100%;
+  width: 100%;
+  background: inherit;
+  border-radius: 25px;
+}
+
+.ai2-button span:first-child {
+  filter: blur(15px);
+}
+
+.ai2-button span:last-child {
+  filter: blur(15px);
+  transition: 0.3s;
+}
+
+.button:hover span:last-child {
+  width: 110%;
+  height: 120%;
+}
