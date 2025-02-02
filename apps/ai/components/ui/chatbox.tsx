@@ -41,10 +41,10 @@ const ChatBox = ({
           className
         )}
         {...props}
-        style={{
-          "--circle-start": "var(--tw-gradient-from, #a0d9f8)",
-          "--circle-end": "var(--tw-gradient-to, #3a5bbf)",
-        }}
+        // style={{
+        //   "--circle-start": "var(--tw-gradient-from, #a0d9f8)",
+        //   "--circle-end": "var(--tw-gradient-to, #3a5bbf)",
+        // }}
       >
         {isLoading ? (
           <div className="flex items-center space-x-2">

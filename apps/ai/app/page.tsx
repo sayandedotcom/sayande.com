@@ -44,41 +44,11 @@ import { useAutoResizeTextarea } from "@/hooks/use-auto-resize-textarea";
 import { PlaceholdersAndVanishInput } from "@/components/ui/placeholders-and-vanish-input";
 import { ChatBox } from "@/components/ui/chatbox";
 
-const users = [
-  {
-    name: "Olivia Martin",
-    email: "m@example.com",
-    avatar: "/avatars/01.png",
-  },
-  {
-    name: "Isabella Nguyen",
-    email: "isabella.nguyen@email.com",
-    avatar: "/avatars/03.png",
-  },
-  {
-    name: "Emma Wilson",
-    email: "emma@example.com",
-    avatar: "/avatars/05.png",
-  },
-  {
-    name: "Jackson Lee",
-    email: "lee@example.com",
-    avatar: "/avatars/02.png",
-  },
-  {
-    name: "William Kim",
-    email: "will@email.com",
-    avatar: "/avatars/04.png",
-  },
-] as const;
-
-type User = (typeof users)[number];
-
 export default function Page() {
   const [messages, setMessages] = React.useState([
     {
       id: 1,
-      content: "Hi !",
+      content: "Hey ! my name is Sayan De Want to know more about me ?",
       sender: "ai",
     },
     // {
@@ -129,7 +99,6 @@ export default function Page() {
   });
 
   const [input, setInput] = React.useState("");
-  const inputLength = input.trim().length;
 
   return (
     <div className="relative bg-background h-screen w-screen flex items-center justify-center">
@@ -144,14 +113,20 @@ export default function Page() {
       <Card className="absolute w-full bg-background h-full max-w-[700px] max-h-[800px] flex flex-col">
         <CardHeader className="flex flex-row items-center p-4">
           <div className="flex items-center space-x-4">
-            <Avatar>
-              <AvatarImage
-                src="/pic.jpeg"
-                className="object-cover"
-                alt="Image"
-              />
-              <AvatarFallback>OM</AvatarFallback>
-            </Avatar>
+            <div className="relative">
+              <span className="absolute flex size-2 right-0 bottom-0 z-10">
+                <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-400 opacity-75"></span>
+                <span className="relative inline-flex size-2 rounded-full bg-green-500"></span>
+              </span>
+              <Avatar>
+                <AvatarImage
+                  src="/pic.jpeg"
+                  className="object-cover"
+                  alt="Image"
+                />
+                <AvatarFallback>OM</AvatarFallback>
+              </Avatar>
+            </div>
             <div>
               <p className="text-sm font-medium leading-none">Sayan De</p>
               <p className="text-sm text-muted-foreground">
@@ -179,7 +154,7 @@ export default function Page() {
         <CardContent className="min-h-[400px] h-full border bg-background rounded-lg flex flex-col mt-auto">
           <div className="flex-1 overflow-hidden">
             <ChatMessageList>
-              <div className="flex flex-col justify-center items-center space-x-4">
+              <div className="flex flex-col justify-center items-center space-y-4">
                 <Avatar className="h-28 w-28">
                   <AvatarImage
                     src="/pic.jpeg"
@@ -188,10 +163,18 @@ export default function Page() {
                   />
                   <AvatarFallback>SD</AvatarFallback>
                 </Avatar>
-                <p className="text-sm font-medium">Hey ! my name is Sayan De</p>
+                {/* <p className="text-sm font-medium">Hey ! my name is Sayan De</p>
                 <p className="text-sm text-muted-foreground">
                   Want to know more about me ?
-                </p>
+                </p> */}
+                <a
+                  className="text-xs text-white/80"
+                  href="https://www.sayande.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Build by <span className="text-[#13EEE3]">sayande.com</span>
+                </a>
               </div>
               {messages.map((message) => (
                 <ChatBubble
@@ -199,12 +182,11 @@ export default function Page() {
                   variant={message.sender === "user" ? "sent" : "received"}
                 >
                   <ChatBubbleAvatar
-                    className="h-8 w-8 shrink-0r"
-                    src={
-                      message.sender === "user"
-                        ? "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=64&h=64&q=80&crop=faces&fit=crop"
-                        : "/pic.jpeg"
-                    }
+                    className={cn(
+                      "h-8 w-8 shrink-0r",
+                      message.sender === "user" && "hidden"
+                    )}
+                    src={message.sender === "user" ? "" : "/pic.jpeg"}
                     fallback={message.sender === "user" ? "US" : "AI"}
                   />
                   <>
@@ -300,9 +282,18 @@ export default function Page() {
               </p>
             </div>
           </div>
-          <PlaceholdersAndVanishInput onSubmit={handleSubmit} />
+          {/* <PlaceholdersAndVanishInput onSubmit={handleSubmit} /> */}
         </CardContent>
-        <CardFooter>Made with Langchain, OpenAI, ChromaDB</CardFooter>
+        <CardFooter className="flex items-center justify-center p-4">
+          <p className="text-sm text-muted-foreground flex items-center gap-1">
+            Made with
+            <span className="inline-flex items-center">
+              <div className="text-red-500 animate-heartbeat text-sm">❤️</div>
+            </span>
+            using Next.js, TypeScript, TailwindCSS, Python, Langchain, OpenAI,
+            Pinecone, GCP
+          </p>
+        </CardFooter>
       </Card>
     </div>
   );
