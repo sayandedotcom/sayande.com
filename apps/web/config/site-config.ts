@@ -47,7 +47,7 @@ const GridItems: GridItemInterface[] = [
     icon: "twitter",
     username: "@sayandedotcom",
     buttonTitle: "Follow",
-    buttonLink: "https://twitter.com/sayandedotcom",
+    buttonLink: "https://x.com/sayandedotcom",
     buttonSecondaryText: "",
     color: null,
   },
@@ -85,7 +85,7 @@ const GridItems: GridItemInterface[] = [
         link: "",
       },
       {
-        title: "Solidity",
+        title: "Python",
         link: "",
       },
       {
@@ -97,7 +97,7 @@ const GridItems: GridItemInterface[] = [
         link: "",
       },
       {
-        title: "Django",
+        title: "Fast API",
         link: "",
       },
       {
@@ -109,6 +109,10 @@ const GridItems: GridItemInterface[] = [
         link: "",
       },
       {
+        title: "Redis",
+        link: "",
+      },
+      {
         title: "GraphQL",
         link: "",
       },
@@ -117,19 +121,23 @@ const GridItems: GridItemInterface[] = [
         link: "",
       },
       {
-        title: "Github Actions",
+        title: "Kubernetes",
         link: "",
       },
       {
-        title: "AWS",
+        title: "Artificial Intelligence",
         link: "",
       },
       {
-        title: "OOP",
+        title: "LangChain / LangGraph",
         link: "",
       },
       {
-        title: "DSA",
+        title: "Vector Database",
+        link: "",
+      },
+      {
+        title: "Ollama / GPT",
         link: "",
       },
       {
@@ -137,11 +145,11 @@ const GridItems: GridItemInterface[] = [
         link: "",
       },
       {
-        title: "Networking",
+        title: "Microservices",
         link: "",
       },
       {
-        title: "Blockchain",
+        title: "AWS",
         link: "",
       },
     ],
@@ -163,27 +171,27 @@ const GridItems: GridItemInterface[] = [
   {
     layout: "2x1",
     type: "project",
-    title: "E-Commerce MERN GraphQL",
+    title: "Recruitment.ai",
     icon: "github",
     color: "#070707",
-    buttonLink: "https://github.com/sayandedotcom/MERN-E-Commerce-GraphQL",
-    stars: 73,
+    buttonLink: "https://github.com/sayandedotcom/recruitment.ai",
+    stars: 13,
   },
   {
     layout: "2x1",
     type: "project",
-    title: "YouTUbe Clone with YouTube API V3",
+    title: "Microservice MERN",
     icon: "github",
     stars: 19,
     color: "#070707",
-    buttonLink: "https://github.com/sayandedotcom/youtube_clone_reactjs",
+    buttonLink: "https://github.com/sayandedotcom/micro-service-mern",
   },
 ];
 
 export const siteConfig = {
   creator: "Sayan De",
   title: "Full-Stack | DevOps | Cloud (AWS)",
-  bio: "Hi 👋! I’m Sayan, an ambitious Full-Stack 🌐, DevOps ☸️ & Cloud ☁️ Developer from India. Currently pursuing my Masters in Computer Application, I bring a solid foundation in Software Engineering with hands-on experience. My unwavering curiosity and drive push me to explore fresh avenues to redefine technological frontiers. Currently exploring Blockchain 📦 ⛓️. ❤️ exploring techs",
+  bio: "Hi 👋! I’m Sayan, an ambitious AI, Full-Stack 🌐, DevOps ☸️ & Cloud ☁️ Developer from India. Currently pursuing my Masters in Computer Application, I bring a solid foundation in Software Engineering with hands-on experience. My unwavering curiosity and drive push me to explore fresh avenues to redefine technological frontiers.",
   location: "Kolkata, India   🇮🇳",
   locationLink: "",
   // "https://www.google.com/maps/place/Kolkata,+West+Bengal/@22.5354273,88.3473527,12z/data=!3m1!4b1!4m6!3m5!1s0x39f882db4908f667:0x43e330e68f6c2cbc!8m2!3d22.572646!4d88.363895!16zL20vMGN2dzk?entry=ttu",

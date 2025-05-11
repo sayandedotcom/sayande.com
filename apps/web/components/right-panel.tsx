@@ -64,7 +64,7 @@ const RightPanel = () => {
         src="https://skillicons.dev/icons?i=js,ts,python,java,go,react,next,tailwind,nodejs,django,graphql,prisma,postgres,mongodb,redis,kafka,git,github,githubactions,docker,kubernetes,jenkins,nginx,terraform,prometheus,grafana,ansible,cloudflare,aws,gcp"
         alt="Tech Stack"
       ></img>
-      <FAQAccordion className="" />
+      {/* <FAQAccordion className="" /> */}
     </div>
   );
 };
