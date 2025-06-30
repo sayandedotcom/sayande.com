@@ -227,7 +227,7 @@ export const DATA = {
   projects: [
     {
       title: "Refhired.com ( Monolith )",
-      href: "https://chatcollect.com",
+      href: "https://refhired.sayande.com",
       dates: "May 2024 - Present",
       active: true,
       description:
@@ -251,7 +251,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://chatcollect.com",
+          href: "https://refhired.sayande.com/",
           icon: <Icons.globe className="size-3" />,
         },
         {
@@ -267,7 +267,7 @@ export const DATA = {
       ],
       image: "",
       video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+        "https://private-user-images.githubusercontent.com/107565578/460760245-35a0ee7b-9b21-404e-b0f7-b877c95e7130.webm?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTEzMTg0NDUsIm5iZiI6MTc1MTMxODE0NSwicGF0aCI6Ii8xMDc1NjU1NzgvNDYwNzYwMjQ1LTM1YTBlZTdiLTliMjEtNDA0ZS1iMGY3LWI4NzdjOTVlNzEzMC53ZWJtP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDYzMCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTA2MzBUMjExNTQ1WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9NmUyMjQ3MDJjMzVjMTBkNjI3YzBkM2M1ZTc2MTJjNWU3MGY4NmY0MGExZWExZTQ2ZmE4NDYyNGFhYjYwMWVjNSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ._H0-Jyg38d31OGjqpMaNdKvrlutL4loZJubmiftsCFU",
     },
     {
       title: "Refhired.com ( Mictoservice )",
@@ -311,7 +311,7 @@ export const DATA = {
       ],
       image: "",
       video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+        "https://private-user-images.githubusercontent.com/107565578/460760245-35a0ee7b-9b21-404e-b0f7-b877c95e7130.webm?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTEzMTg0NDUsIm5iZiI6MTc1MTMxODE0NSwicGF0aCI6Ii8xMDc1NjU1NzgvNDYwNzYwMjQ1LTM1YTBlZTdiLTliMjEtNDA0ZS1iMGY3LWI4NzdjOTVlNzEzMC53ZWJtP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDYzMCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTA2MzBUMjExNTQ1WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9NmUyMjQ3MDJjMzVjMTBkNjI3YzBkM2M1ZTc2MTJjNWU3MGY4NmY0MGExZWExZTQ2ZmE4NDYyNGFhYjYwMWVjNSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ._H0-Jyg38d31OGjqpMaNdKvrlutL4loZJubmiftsCFU",
     },
     {
       title: "Recruitment-ai",
@@ -343,17 +343,17 @@ export const DATA = {
         // },
         {
           type: "Source",
-          href: "https://github.com/dillionverma/llm.report",
+          href: "https://github.com/sayandedotcom/recruitment.ai",
           icon: <Icons.github className="size-3" />,
         },
         {
           type: "Blog",
-          href: "https://github.com/sayandedotcom/inbox-ai",
+          href: "https://blogs.sayande.com/filter-resumes-with-agentic-ai-langchain-and-lanhgraph",
           icon: <NotebookIcon className="size-3" />,
         },
       ],
-      image: "",
-      video: "https://cdn.llm.report/openai-demo.mp4",
+      image: "/recr.png",
+      video: "",
     },
     {
       title: "Inbox-ai ( Agentic AI )",
@@ -392,9 +392,8 @@ export const DATA = {
           icon: <Icons.wrench className="size-3" />,
         },
       ],
-      image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+      image: "/inbox.png",
+      video: "",
     },
     // {
     //   title: "Magic UI",
