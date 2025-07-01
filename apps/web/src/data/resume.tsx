@@ -13,7 +13,9 @@ export const DATA = {
   url: "https://sayande.com",
   location: "Kolkata, India",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
-  description: "Software Engineer passionate about building and exploring...",
+  // description: "Software Engineer passionate about building and exploring...",
+  description:
+    "Software Engineer on a quest to build cool stuff and chase dopamine hits with every commit . . . . ",
   summary:
     "I’m a Software Engineer with a solid foundation and enough hands-on experience to have broken (and fixed) things across the entire stack. Powered by caffeine, curiosity, and the occasional Stack Overflow thread, I love diving headfirst into new technologies just to see what I can build (or break). Fast learner. Vibe coder. Currently juggling Full-Stack Development, AI wizardry, DevOps spells, Cloud sorcery, and Microservice magic — all while pretending I know what I’m doing (I usually do).",
   // "I'm a Software Engineer with a strong foundation and hands-on experience across the stack. Fueled by curiosity and a love for learning, I constantly push myself to explore new technologies and redefine what's possible. Fast learner. Vibe coder. I'm diving deep into Full-Stack Development, AI Engineering, DevOps, Cloud Infrastructure, and Microservice Architectures — building things that matter and learning at every step.",
