@@ -65,12 +65,12 @@ export const DATA = {
     },
   ],
   contact: {
-    email: "sayandeten@gmail.com",
+    email: "contact@sayande.com",
     tel: "+917439891451",
     social: {
       Mail: {
         name: "Send Email",
-        url: "mailto:sayandeten@gmail.com",
+        url: "mailto:contact@sayande.com",
         icon: Icons.email,
 
         navbar: true,
