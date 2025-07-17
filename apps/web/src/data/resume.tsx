@@ -280,7 +280,7 @@ export const DATA = {
       // "https://private-user-images.githubusercontent.com/107565578/460760245-35a0ee7b-9b21-404e-b0f7-b877c95e7130.webm?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTEzMTg0NDUsIm5iZiI6MTc1MTMxODE0NSwicGF0aCI6Ii8xMDc1NjU1NzgvNDYwNzYwMjQ1LTM1YTBlZTdiLTliMjEtNDA0ZS1iMGY3LWI4NzdjOTVlNzEzMC53ZWJtP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDYzMCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTA2MzBUMjExNTQ1WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9NmUyMjQ3MDJjMzVjMTBkNjI3YzBkM2M1ZTc2MTJjNWU3MGY4NmY0MGExZWExZTQ2ZmE4NDYyNGFhYjYwMWVjNSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ._H0-Jyg38d31OGjqpMaNdKvrlutL4loZJubmiftsCFU",
     },
     {
-      title: "Refhired.com ( Mictoservice )",
+      title: "Refhired.com ( Microservices )",
       href: "https://chatcollect.com",
       dates: "May 2025 - Jun 2025",
       active: true,
