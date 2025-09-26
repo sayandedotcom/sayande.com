@@ -231,6 +231,56 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Tweakleaf.com",
+      href: "https://tweakleaf.com",
+      dates: "Sep 2025 - Present",
+      active: true,
+      description:
+        "•  Developed a self-learning AI agent that adapts dynamically to user preferences. \n • Built an agentic chat system with long-term memory, preserving user context across interactions. \n • Reduced LLM latency by 80% and costs by 90% through intelligent routing between weak and strong models. \n • Optimized LLM for LaTeX code generation using Few-Shot Prompting to ensure syntactic accuracy. \n • Decreased token usage by 70% and improved response times via Prompt Compression with LLMLingua. \n • Minimized hallucinations in job-application conversations by implementing isolated session threads. \n • Integrated a LaTeX compiler with a live code editor for dynamic document generation. \n • Maintained website Core Web Vitals (FCP, LCP, FID, CLS, SEO) with an average score above 95%. \n • Deployed backend APIs using a hybrid architecture: AI LangChain API on AWS Lambda (serverless) for scalability and a LaTeX compiler API on AWS EC2 behind a load balancer for reliability and performance, optimizing both cost and efficiency",
+      // "•   \n • Built a full-stack web app with Next.js 14+ as frontend and Node.js with Express.js as backend server with GraphQL API.  \n • Used PostgreSQL as main database with Prisma, S3 for static files alongside Redis for efficient data caching and iIncreased the database throughput by using separate read replica.  \n • Implemented rate limiting with redis, to control network requests and to avoid DDoS attack.  \n • Implemented Stripe Connect for marketplace payments with automated commission deductions per transaction.  \n • Deployed on AWS using Lambda-based serverless infrastructure to ensure scalability, cost-efficiency, and minimal operational overhead.",
+      technologies: [
+        "Turborepo",
+        "Next.js",
+        "Typescript",
+        "TailwindCSS",
+        "FastAPI",
+        "LangChain",
+        "LangGraph",
+        "AWS Lambda",
+        "AWS EC2",
+        "Redis",
+        "Docker",
+        "SST",
+        "AWS",
+        "GitHub Actions",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://tweakleaf.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/sayandedotcom/tweakleaf",
+          icon: <Icons.github className="size-3" />,
+        },
+        // {
+        //   type: "Blog",
+        //   href: "https://blogs.sayande.com/refhiredcom-what-is-it-a-side-hustle-that-boosted-my-career-skills-confidence-knowledge-etc",
+        //   icon: <NotebookIcon className="size-3" />,
+        // },
+        // {
+        //   type: "",
+        //   href: "#",
+        //   icon: <Icons.wrench className="size-3" />,
+        // },
+      ],
+      image: "/tweakleaf.png",
+      video: "",
+      // "https://private-user-images.githubusercontent.com/107565578/460760245-35a0ee7b-9b21-404e-b0f7-b877c95e7130.webm?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTEzMTg0NDUsIm5iZiI6MTc1MTMxODE0NSwicGF0aCI6Ii8xMDc1NjU1NzgvNDYwNzYwMjQ1LTM1YTBlZTdiLTliMjEtNDA0ZS1iMGY3LWI4NzdjOTVlNzEzMC53ZWJtP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDYzMCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTA2MzBUMjExNTQ1WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9NmUyMjQ3MDJjMzVjMTBkNjI3YzBkM2M1ZTc2MTJjNWU3MGY4NmY0MGExZWExZTQ2ZmE4NDYyNGFhYjYwMWVjNSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ._H0-Jyg38d31OGjqpMaNdKvrlutL4loZJubmiftsCFU",
+    },
+    {
       title: "Refhired.com ( Monolith )",
       href: "https://refhired.sayande.com",
       dates: "May 2024 - Present",
