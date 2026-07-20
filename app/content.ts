@@ -1,6 +1,7 @@
 export const site = {
   name: "Sayan De",
   tagline: "Full-stack AI engineer",
+  description: "Full-stack AI engineer building AI products end-to-end.",
   url: "https://sayande.com",
   email: "sayandeten@gmail.com",
 };
