@@ -18,7 +18,7 @@ export default function Footer() {
         {social.map((link) => (
           <li key={link.label}>
             <a
-              className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
+              className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100 hover:underline"
               rel="noopener noreferrer"
               target="_blank"
               href={link.href}

@@ -25,8 +25,17 @@ export default function Home() {
             <div className="flex flex-col md:flex-row md:justify-between md:items-baseline">
               <p className="text-neutral-900 dark:text-neutral-100 tracking-tight">
                 <span className="font-medium">{job.role}</span>
-                <span className="text-neutral-500 dark:text-neutral-500"> · </span>
-                <span>{job.company}</span>
+                <span className="text-neutral-500 dark:text-neutral-500">
+                  {" "}
+                  ·{" "}
+                </span>
+                <span>
+                  {job.url ? (
+                    <a href={job.url} target="_blank" rel="noopener noreferrer" className="hover:underline">{job.company}</a>
+                  ) : (
+                    job.company
+                  )}
+                </span>
               </p>
               <p className="text-neutral-600 dark:text-neutral-400 text-sm tabular-nums">
                 {job.start} – {job.end}
@@ -67,12 +76,12 @@ export default function Home() {
                 <a
                   key={post.slug}
                   className="flex flex-col md:flex-row md:space-x-2"
-                  href={`/blog/${post.slug}`}
+                  href={post.slug}
                 >
                   <p className="text-neutral-500 dark:text-neutral-500 md:w-28 shrink-0 tabular-nums">
                     {post.date}
                   </p>
-                  <p className="text-neutral-900 dark:text-neutral-100 tracking-tight">
+                  <p className="text-neutral-900 dark:text-neutral-100 tracking-tight hover:underline">
                     {post.title}
                   </p>
                 </a>
