@@ -2,7 +2,13 @@ import { site, intro, experience, projects, skills, writing } from "./content";
 
 function ArrowIcon() {
   return (
-    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg
+      width="12"
+      height="12"
+      viewBox="0 0 12 12"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
       <path
         d="M2.07102 11.3494L0.963068 10.2415L9.2017 1.98864H2.83807L2.85227 0.454545H11.8438V9.46023H10.2955L10.3097 3.09659L2.07102 11.3494Z"
         fill="currentColor"
@@ -11,7 +17,11 @@ function ArrowIcon() {
   );
 }
 
-function highlightKeywords(text: string, isFirst: boolean, keywords?: string[]) {
+function highlightKeywords(
+  text: string,
+  isFirst: boolean,
+  keywords?: string[],
+) {
   const mutedClass = isFirst
     ? "text-neutral-700 dark:text-neutral-200"
     : "text-neutral-600 dark:text-neutral-400";
@@ -20,9 +30,14 @@ function highlightKeywords(text: string, isFirst: boolean, keywords?: string[]) 
   }
   let result = text;
   keywords.forEach((kw) => {
-    result = result.replace(kw, `<span class="font-medium text-neutral-900 dark:text-neutral-100">${kw}</span>`);
+    result = result.replace(
+      kw,
+      `<span class="font-medium text-neutral-900 dark:text-neutral-100">${kw}</span>`,
+    );
   });
-  return <span className={mutedClass} dangerouslySetInnerHTML={{ __html: result }} />;
+  return (
+    <span className={mutedClass} dangerouslySetInnerHTML={{ __html: result }} />
+  );
 }
 
 export default function Home() {
@@ -40,6 +55,27 @@ export default function Home() {
           {paragraph}
         </p>
       ))}
+
+      <div className="mb-6 p-4 rounded-lg bg-neutral-100 dark:bg-neutral-800/50">
+        <p className="text-sm">
+          <span className="font-medium text-neutral-900 dark:text-neutral-100">
+            Current status:
+          </span>{" "}
+          <span className="text-neutral-700 dark:text-neutral-300">
+            Currently part-timing with AfterQuery and Parcero to keep the lights
+            on, while actively looking for a Full Stack AI engineering role at
+            an early-stage AI startup. Looking to join at the start of
+            August.{" "}
+          </span>
+          <span className="font-medium text-neutral-900 dark:text-neutral-100">
+            I have zero notice period and will leave all part-time commitments
+            once I join.
+          </span>
+        </p>
+      </div>
+      <p className="text-xs text-neutral-400 dark:text-neutral-500 mb-8">
+        Last updated on: Jul 14, 2026
+      </p>
 
       <h2 className="mt-12 mb-4 text-xl font-semibold tracking-tighter">
         Experience
@@ -109,21 +145,26 @@ export default function Home() {
                   <span className="text-neutral-900 dark:text-neutral-100 font-medium">
                     {project.name}
                   </span>
-                  {project.engineering && project.engineering.map((eng, k) => (
-                    <a
-                      key={k}
-                      href={eng}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center gap-x-1 hover:text-neutral-700 dark:hover:text-neutral-200 hover:underline text-sm"
-                    >
-                      <span>·</span>
-                      <ArrowIcon />
-                      <span className="ml-1">
-                        {project.name === "Genie" && k === 0 ? "Uber's Blog" : project.name === "Genie" ? "My Blog" : "Engineering"}
-                      </span>
-                    </a>
-                  ))}
+                  {project.engineering &&
+                    project.engineering.map((eng, k) => (
+                      <a
+                        key={k}
+                        href={eng}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-x-1 hover:text-neutral-700 dark:hover:text-neutral-200 hover:underline text-sm"
+                      >
+                        <span>·</span>
+                        <ArrowIcon />
+                        <span className="ml-1">
+                          {project.name === "Genie" && k === 0
+                            ? "Uber's Blog"
+                            : project.name === "Genie"
+                              ? "My Blog"
+                              : "Engineering"}
+                        </span>
+                      </a>
+                    ))}
                   {project.live && (
                     <a
                       href={project.live}
@@ -169,7 +210,9 @@ export default function Home() {
                 {project.bullets && project.bullets.length > 0 && (
                   <ul className="list-disc text-sm space-y-0.5 mt-1 pl-4">
                     {project.bullets.map((bullet, j) => (
-                      <li key={j} className="pl-1">{highlightKeywords(bullet, j === 0, project.highlights)}</li>
+                      <li key={j} className="pl-1">
+                        {highlightKeywords(bullet, j === 0, project.highlights)}
+                      </li>
                     ))}
                   </ul>
                 )}
