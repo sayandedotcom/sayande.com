@@ -57,21 +57,27 @@ export default function Home() {
       ))}
 
       <div className="mb-6 p-4 rounded-lg bg-neutral-100 dark:bg-neutral-800/50">
-        <p className="text-sm">
-          <span className="font-medium text-neutral-900 dark:text-neutral-100">
-            Current status:
-          </span>{" "}
-          <span className="text-neutral-700 dark:text-neutral-300">
-            Currently part-timing with AfterQuery and Parcero to keep the lights
-            on, while actively looking for a Full Stack AI engineering role at
-            an early-stage AI startup. Looking to join at the start of
-            August.{" "}
+        <div className="flex items-center gap-2">
+          <span className="relative flex h-2.5 w-2.5">
+            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+            <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-green-500"></span>
           </span>
-          <span className="font-medium text-neutral-900 dark:text-neutral-100">
-            I have zero notice period and will leave all part-time commitments
-            once I join.
-          </span>
-        </p>
+          <p className="text-sm">
+            <span className="font-medium text-neutral-900 dark:text-neutral-100">
+              Current status:
+            </span>{" "}
+            <span className="text-neutral-700 dark:text-neutral-300">
+              Currently part-timing with AfterQuery and Parcero to keep the lights
+              on, while actively looking for a Full Stack AI engineering role at
+              an early-stage AI startup. Looking to join at the start of
+              August.{" "}
+            </span>
+            <span className="font-medium text-neutral-900 dark:text-neutral-100">
+              I have zero notice period and will leave all part-time commitments
+              once I join.
+            </span>
+          </p>
+        </div>
       </div>
       <p className="text-xs text-neutral-400 dark:text-neutral-500 mb-8">
         Last updated on: Jul 14, 2026
