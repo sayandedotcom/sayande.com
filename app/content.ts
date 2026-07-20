@@ -54,6 +54,15 @@ export const experience: {
     description:
       "Led frontend for the No-Code editor, mentoring developers and helping non-technical users build websites/apps. Identified and fixed AI-related bugs with full-stack solutions.",
   },
+  {
+    role: "Full Stack AI Engineer",
+    company: "Multiple Small Startus & SAAS",
+    url: "https://symbols.app/",
+    start: "Jan 2022",
+    end: "Present",
+    description:
+      "Worked on multiple small SAAS startups integrating payment gateways to building full-stack projects with live users",
+  },
 ];
 
 export const projects: {
