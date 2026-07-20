@@ -231,5 +231,6 @@ export const social: { label: string; href: string }[] = [
   { label: "linkedin", href: "https://www.linkedin.com/in/sayande" },
   { label: "blog", href: "https://sayande.hashnode.dev" },
   { label: "x", href: "https://x.com/sayandedotcom" },
+  { label: "resume", href: "https://drive.google.com/file/d/1PS-72mV6TQVDRTbLtK2SkR0VU74zZz4a/view" },
   { label: "rss", href: "/rss" },
 ];
