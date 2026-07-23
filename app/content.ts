@@ -20,6 +20,15 @@ export const experience: {
   description: string;
 }[] = [
   {
+    role: "Founder & Builder",
+    company: "InterviewResources.app ( Current )",
+    url: "https://www.interviewresources.app/",
+    start: "Jan 2022",
+    end: "Present",
+    description:
+      "Worked on multiple small SAAS startups integrating payment gateways to building full-stack projects with live users (100k + MAU). Currently working on building interviewresources.app which is an AI-powered interview preparation platform to help candidates crack technical interviews.",
+  },
+  {
     role: "Software Engineer",
     company: "AfterQuery (YC 2025)",
     url: "https://www.afterquery.com/",
@@ -54,15 +63,15 @@ export const experience: {
     description:
       "Led frontend for the No-Code editor, mentoring developers and helping non-technical users build websites/apps. Identified and fixed AI-related bugs with full-stack solutions.",
   },
-  {
-    role: "Full Stack AI Engineer",
-    company: "Multiple Small Startus & SAAS",
-    url: "https://symbols.app/",
-    start: "Jan 2022",
-    end: "Present",
-    description:
-      "Worked on multiple small SAAS startups integrating payment gateways to building full-stack projects with live users",
-  },
+  // {
+  //   role: "Full Stack AI Engineer",
+  //   company: "Multiple Small Startus & SAAS",
+  //   url: "https://symbols.app/",
+  //   start: "Jan 2022",
+  //   end: "Present",
+  //   description:
+  //     "Worked on multiple small SAAS startups integrating payment gateways to building full-stack projects with live users",
+  // },
 ];
 
 export const projects: {
@@ -231,7 +240,10 @@ export const social: { label: string; href: string }[] = [
   { label: "linkedin", href: "https://www.linkedin.com/in/sayande" },
   { label: "blog", href: "https://sayande.hashnode.dev" },
   { label: "x", href: "https://x.com/sayandedotcom" },
-  { label: "resume", href: "https://drive.google.com/file/d/1PS-72mV6TQVDRTbLtK2SkR0VU74zZz4a/view" },
+  {
+    label: "resume",
+    href: "https://drive.google.com/file/d/1PS-72mV6TQVDRTbLtK2SkR0VU74zZz4a/view",
+  },
   { label: "book a time", href: "https://cal.com/sayandedotcom/chat" },
   { label: "rss", href: "/rss" },
 ];
