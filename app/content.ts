@@ -26,7 +26,7 @@ export const experience: {
     start: "Jan 2022",
     end: "Present",
     description:
-      "Worked on multiple small SAAS startups integrating payment gateways to building full-stack projects with live users (100k + MAU). Currently working on building interviewresources.app which is an AI-powered interview preparation platform to help candidates crack technical interviews.",
+      "Worked on multiple (40+) small SaaS startups, integrating payment gateways and building full-stack projects with live users (100k+ MAU). Monitored, iterated, and made product decisions based on user behavior data, weighing tradeoffs and architecture choices. Currently building interviewresources.app, an AI-powered interview preparation platform with real-time feedback, mock interviews, and personalized study plans to help candidates ace technical interviews.",
   },
   {
     role: "Software Engineer",
