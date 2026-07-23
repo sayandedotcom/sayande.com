@@ -164,10 +164,12 @@ export default function Home() {
                         <ArrowIcon />
                         <span className="ml-1">
                           {project.name === "Genie" && k === 0
-                            ? "Uber's Blog"
-                            : project.name === "Genie"
-                              ? "My Blog"
-                              : "Engineering"}
+                            ? "Uber's Blog 1"
+                            : project.name === "Genie" && k === 1
+                              ? "Uber's Blog 2"
+                              : project.name === "Genie"
+                                ? "My Blog"
+                                : "Engineering"}
                         </span>
                       </a>
                     ))}
